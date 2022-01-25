@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+    
+
+    <center> <font color="red" face="Courier New">
+
+        <H1> DATOS PERSONALES DE LA PERSONA VACUNADA EN LATACUNGA</H1> 
+    </font></center>
+
+    <div id= "GUARDAR">
+
+        <div style="text-align: center; font-size: 20px; border: 2px solid rgb(0, 0, 0);">
+    <form action="conexion.php" method="POST">
+        <br>
+        CÓDIGO:
+        <br>
+        <input type="number" name="codigo">
+        <br>
+        <br>
+        CEDULA:
+        <br>
+        <input type="text" name="cedula">
+        <br>
+        <br>
+        NOMBRE:
+        <br>
+        <input type="text" name="nombre">
+        <br>
+        <br>
+        CIUDAD:
+        <br>
+        <input type="text" name="ciudad">
+        <br>
+        <br>
+        EDAD:
+        <br>
+        <input type="text" name="edad">
+        <br>
+        <br>
+        NÚMERO DE DOSIS:
+        <br>
+        <input type="text" name="num_dosis">
+        <br>
+        <br>
+        <input type="submit" name="action" value="GUARDAR">
+        <br>
+        <br>
+    </form>
+</div>
+
+    <div style="text-align: center; font-size: 20px; border: 2px solid rgb(0, 0, 0);">
+    <section class ="form2">
+<font color="red">
+        <H3> BUSQUEDA DE DATOS </H3> 
+        <h4></h4>
+    </font>
+
+        <form action="buscar.php" method="POST">
+            <br>
+            BUSCAR USUARIO:
+            <br>
+            <input class="controls" type="text" name="cedula">
+            <br>
+            <input class="botons2" type="submit" name="btnbuscar" value="Buscar">
+<br>
+<br>
+        </form>
+    </div>
+    </section>
+
+
+    <div style="text-align: center; font-size: 20px; border: 2px solid rgb(0, 0, 0);">
+    <form action="eliminar.php" method="POST">
+        <font color="red">
+            <H3> CODIGO DE USUARIO QUE DESEA ELIMINAR: </H3> 
+            <h4></h4>
+        </font>
+
+        <input type="text" name="codigo">
+        <br>
+        <br>
+        <input type="submit" name="btneliminar" value="ELIMINAR">
+        <input type="submit" name="siguiente" value = "siguiente">
+        <input type="submit" name="anterior" value="anterior">
+        <br>
+        <br>
+    </form>
+</div>
+
+    <div style="text-align: center; font-size: 20px; border: 2px solid rgb(0, 0, 0);">
+    <font color="red">
+        <H3> MODIFICAR DATOS </H3> 
+        <h4></h4>
+    </font>
+    <br>
+    <form action="modificar.php" method="POST">
+        <input type="text" name="codigo" placeholder="ingrese nuevo codigo">
+        <br>
+        <br>
+        <input type="text" name="cedula" placeholder="ingrese nueva cedula">
+        <br>
+        <br>
+        <input type="text" name="nombre" placeholder="ingrese nuevo nombre">
+        <br>
+        <br>
+        <input type="text" name="ciudad" placeholder="ingrese nueva ciudad">
+        <br>
+        <br>
+        <input type="text" name="edad" placeholder="ingrese nueva edad">
+        <br>
+        <br>
+        <input type="text" name="num_dosis" placeholder="ingrese nueva dosis">
+        <br>
+        <br>
+        <input type="submit" name="name" value="modificar">
+        <br>
+        <br>
+    </form>
+</div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
