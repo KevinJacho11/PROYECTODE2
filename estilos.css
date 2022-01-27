@@ -76,3 +76,127 @@ body {
     font-weight: 100;
     margin: 30px 0 20px;
 }
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+
+footer{
+    width: 100%;
+    padding: 0% 0%;
+    background-size: cover;
+    display: flex;
+    flex-grow: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.container__footer h2 {
+    font-weight: 300;
+    color: #0e0e0f;
+    text-shadow: rgb(172, 165, 165) 2px 2.5px 3px;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer img {
+    width: 20px;
+}
+
+.box__footer a{
+    font-weight: 600;
+    margin-top: 15px;
+    color: #065ee2;
+    text-shadow: rgb(156, 157, 158) 2px 2px 2px;
+    text-align: center;
+}
+
+.box__footer a:hover{
+    opacity: 2;
+
+}
+
+.box__footer h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: rgb(5, 5, 5);
+}
+
+.tittle {
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #000000;
+    text-shadow: rgb(235, 74, 74) 3px 4px 4px;
+}
+
+.contenido {
+    width: 1000%;
+    max-width: 1150px;
+    display: flex;
+    height: auto;
+}
+
+.contenido .card {
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0.2);
+    overflow: hidden;
+    margin: -25px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenido .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0.2);
+}
+
+.contenido .card img {
+    width: 330px;
+    height: 240px;
+}
+
+.contenido .card h4 {
+    font-weight: 600;
+    color: #232324;
+    text-shadow: rgb(128, 126, 126) 2px 2.5px 3px;
+}
+
+.contenido .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
