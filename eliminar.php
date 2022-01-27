@@ -10,7 +10,7 @@ $cedula=$_POST['cedula'];
 $conexion=mysqli_connect($servidor,$usuario,$clave) or die ("error en la conexión del servidor");
 $bases=mysqli_select_db($conexion,$base) or die ("error al conectarse con la base de datos");
 
-mysqli_query($conexion,"DELETE FROM datos_cliente where cedula='$cedula'") or die ("error al conectar con la tabla");
+mysqli_query($conexion,"DELETE FROM turnos where cedula='$cedula'") or die ("error al conectar con la tabla");
 mysqli_close($conexion);
-echo("LOS DATOS SE HAN ELIMINADO EXITOSAMENTE");
+echo("EL TURNO A SIDO ELIMINADO EXITOSAMENTE");
 ?>

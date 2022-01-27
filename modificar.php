@@ -18,7 +18,7 @@ $bases=mysqli_select_db($conexion,$base) or die ("error al conectarse con la bas
 
 
 
-mysqli_query($conexion,"UPDATE datos_cliente SET codigo = '$codigo', cedula = '$cedula', nombre = '$nombre', 
+mysqli_query($conexion,"UPDATE turnos SET codigo = '$codigo', cedula = '$cedula', nombre = '$nombre', 
 ciudad = '$ciudad', animal = '$animal', telefono = '$telefono' where codigo='$codigo'") or die ("error al conectar con la tabla");
 mysqli_close($conexion);
 echo("LOS DATOS SE HAN EDITADO EXITOSAMENTE");
