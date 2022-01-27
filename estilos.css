@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg .container-fluid1{
+    background-image: url(/Imagenes/fondo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.bg{
+    background-image: url(/Imagenes/fondo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #f3130b;
+    text-shadow: rgb(68, 67, 67) 3px 4px 2px;
+}
+
+h5 {
+font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 30px;
+    color: #e9a208;
+    text-shadow: rgb(112, 108, 108) 3px 3.5px 3px;
+}
+
+body {
+    background: url(/Imagenes/fondo.jpg)repeat-x;
+    background-repeat: round;
+    background-position: bottom left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    
+}
+
+.carousel-inner img {
+    border-radius: 11px;
+}
+
+
+.box {
+    width: 700px;
+    height: 450px;
+    background: rgb(44, 43, 43);
+    margin: 0 auto;
+    margin-top: 0%;
+    padding: 40px;
+    color: white;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
